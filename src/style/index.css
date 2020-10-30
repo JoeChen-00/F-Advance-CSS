@@ -18,3 +18,19 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 50px;
+}
+
+.navbar li {
+  position: relative;
+  text-align: center;
+  flex: 1;
+}
