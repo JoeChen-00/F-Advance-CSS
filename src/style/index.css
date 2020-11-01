@@ -34,3 +34,43 @@ ul {
   text-align: center;
   flex: 1;
 }
+
+.mainContainer {
+  display: flex;
+}
+
+.section1 {
+  margin-left: 40px;
+  margin-right: 20px;
+  padding: 20px 20px 20px 20px;
+  width: 700px;
+}
+
+.section1-article1 {
+  background-color: lightgray;
+  padding: 20px 20px 20px 20px;
+}
+
+.section1-article1 h1 {
+  font-style: italic;
+}
+
+.section1-article2 {
+  padding: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section1-article2 h1 {
+  font-style: italic;
+}
+
+.footer {
+  background-color: darkgray;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
