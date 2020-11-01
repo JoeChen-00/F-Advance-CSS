@@ -35,7 +35,7 @@ ul {
   flex: 1;
 }
 
-.mainContainer {
+.main-container {
   display: flex;
 }
 
@@ -46,31 +46,101 @@ ul {
   width: 700px;
 }
 
-.section1-article1 {
+.about {
   background-color: lightgray;
+  margin-top: 15px;
   padding: 20px 20px 20px 20px;
 }
 
-.section1-article1 h1 {
+.about h1 {
   font-style: italic;
 }
 
-.section1-article2 {
+.archives {
   padding: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
 }
 
-.section1-article2 h1 {
+.archives h1 {
   font-style: italic;
+}
+
+.section2 {
+  margin-left: 40px;
+  padding: 20px 20px 20px 20px;
+  width: 800px;
+}
+
+.article1 {
+  padding: 20px 20px 20px 20px;
+  border: 2px solid darkgray;
+  margin-bottom: 50px;
+}
+
+.section3 {
+  margin-right: 20px;
+  padding: 20px 20px 20px 20px;
+  width: 800px;
+}
+
+.thumbnail {
+  background-color: darkslategray;
+  color: white;
+  height: 100px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section4 {
+  width: 700px;
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  display: flex;
+  background-color: darkgray;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button {
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  width: 100px;
 }
 
 .footer {
   background-color: darkgray;
-  position: absolute;
+  position: fixed;
   right: 0;
   left: 0;
   bottom: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.footer div {
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
